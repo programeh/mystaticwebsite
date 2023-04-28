@@ -3,7 +3,7 @@ name: Build & deploy
 on:
   push:
     branches:
-      - master 
+      - main
     
 jobs:
   deploy:
@@ -31,5 +31,5 @@ jobs:
       - name: deploy
         run: |
           aws s3 sync public/ s3://bloginfra-s3bucketstatic-1lmq75qhm1qpa
-          aws cloudfront create-invalidation --distribution-id E1U6VMTJ8KJVGJ --paths "/*"
+          aws cloudfront create-invalidation --distribution-id E2JWS189L8NLK9 --paths "/*"
       
