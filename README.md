@@ -1,0 +1,2 @@
+# mystaticwebsite
+My awesome codebase
