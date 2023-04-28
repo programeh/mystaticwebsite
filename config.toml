@@ -3,16 +3,6 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "LoveIt"
 
-efaultContentLanguage = "en"
-# language code ["en", "zh-CN", "fr", "pl", ...]
-# 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
-# language name ["English", "简体中文", "Français", "Polski", ...]
-# 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
-# whether to include Chinese/Japanese/Korean
-# 是否包括中日韩文字
-hasCJKLanguage = false
 
 # default amount of posts in each pages
 # 默认每页列表显示的文章数目
